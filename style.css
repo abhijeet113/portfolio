@@ -70,6 +70,7 @@ body{
 .homecontent h3{
     font-size: 32px;
     font-weight: 700;
+    opacity: 0;
     animation: slidedown .5s ease forwards;
 
 
@@ -81,11 +82,15 @@ body{
     font-size: 56px;
     font-weight: 700;
     margin:-3px 0;
-    animation: slideleft .5s ease forwards;
-
+    animation: slideRight .5s ease forwards;
+    animation-delay: 1s;
+    opacity: 0;
 }
 .homecontent p{
     font-size: 20px;
+    animation: slideleft 1s ease forwards;
+    animation-delay: 1s;
+    opacity: 0;
 }
 .home-sci a{
     display: inline-flex;
